@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=swing-ui-template
+GenericName=Tool
+Comment=template application
+Exec=sh -c 'java -jar ~/apps/swing-ui-template/swing-ui-template.jar'
+Icon=~/apps/swing-ui-template/img/icon.png
