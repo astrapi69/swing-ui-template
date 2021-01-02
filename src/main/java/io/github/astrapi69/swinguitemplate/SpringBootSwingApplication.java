@@ -80,8 +80,10 @@ public class SpringBootSwingApplication extends ApplicationFrame<ApplicationMode
 	public static void main(String[] args)
 
 	{
-		String imagePath = "img/icon.png";
-		String text = "swing-ui-template";
+		String imagePath;
+		String text;
+		imagePath = Messages.getString("global.icon.app.path");
+		text = Messages.getString("mainframe.project.name");
 		SplashScreenModelBean splashScreenModelBean = SplashScreenModelBean.builder()
 		.imagePath(imagePath).text(text).min(0).max(100).showTime(3000)
 		.showing(true).build();
